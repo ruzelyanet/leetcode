@@ -1,0 +1,30 @@
+﻿import { Router } from '@module/router'
+import type { Route } from '@module/router'
+
+const routes: Route[] = [{
+    path: '/',
+    component: () => import('@page/home')
+}, {
+    path: '/remove-sub-folder',
+    component: () => import('@/units/RemoveSubFolder')
+}, {
+    path: '/maximum-erasure-value',
+    component: () => import('@unit/MaximumErasureValue-1695')
+}, {
+    path: '/two-sum',
+    component: () => import('@unit/TwoSum')
+}]
+
+const router = new Router(routes, '#app')
+
+// router.beforeEach((to, from, next) => {
+//   const isLoggedIn = localStorage.getItem('auth') === '1';
+
+//   if (to.path.startsWith('/dashboard') && !isLoggedIn) {
+//     next('/login');
+//   } else {
+//     next();
+//   }
+// });
+
+export default router
