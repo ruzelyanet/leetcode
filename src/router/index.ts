@@ -13,6 +13,9 @@ const routes: Route[] = [{
 }, {
     path: '/two-sum',
     component: () => import('@unit/TwoSum')
+}, {
+    path: '/power-of-two',
+    component: () => import('@unit/PowerOfTwo-231')
 }]
 
 const router = new Router(routes, '#app')
