@@ -16,6 +16,9 @@ const routes: Route[] = [{
 }, {
     path: '/power-of-two',
     component: () => import('@unit/PowerOfTwo-231')
+}, {
+    path: '/num-of-unplaced-fruits',
+    component: () => import('@unit/NumOfUnplacedFruits')
 }]
 
 const router = new Router(routes, '#app')
