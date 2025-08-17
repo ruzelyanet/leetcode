@@ -19,6 +19,9 @@ const routes: Route[] = [{
 }, {
     path: '/num-of-unplaced-fruits',
     component: () => import('@unit/NumOfUnplacedFruits')
+}, {
+    path: '/pascals-triangle',
+    component: () => import('@unit/PascalsTriangle-118')
 }]
 
 const router = new Router(routes, '#app')
