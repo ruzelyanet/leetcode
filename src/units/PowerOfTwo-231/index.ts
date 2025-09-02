@@ -13,7 +13,7 @@ export default {
         return `
             <section>
                 <h1>Power of Two</h1>
-                <pre>${ isPowerOfTwo(16) }</pre>
+                <pre>${ isPowerOfTwo(4) }</pre>
             </section>
     `;
     }

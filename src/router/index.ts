@@ -22,6 +22,18 @@ const routes: Route[] = [{
 }, {
     path: '/pascals-triangle',
     component: () => import('@unit/PascalsTriangle-118')
+}, {
+    path: '/count-hill',
+    component: () => import('@unit/CountHills')
+}, {
+    path: '/max-sum',
+    component: () => import('@unit/MaxSum')
+}, {
+    path: '/maximum-69-number',
+    component: () => import('@unit/Maximum69Number')
+}, {
+    path: '/valid-word',
+    component: () => import('@unit/ValidWord')
 }]
 
 const router = new Router(routes, '#app')
