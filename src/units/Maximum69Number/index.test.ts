@@ -2,7 +2,7 @@
 
 describe('unit - Power of two', () => {
     it('1 - test', () => {
-        expect(maximum69Number(27)).toStrictEqual(9969)
+        expect(maximum69Number(9969)).toStrictEqual(9999)
     })
 })
 

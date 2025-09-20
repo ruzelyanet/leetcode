@@ -34,7 +34,20 @@ const routes: Route[] = [{
 }, {
     path: '/valid-word',
     component: () => import('@unit/ValidWord')
+}, {
+    path: '/convert-binary-linked-list-to-integer',
+    component: () => import('@unit/ConvertBinaryNumberInaLinkedListToInteger')
+}, {
+    path: '/count-symmetic-integers',
+    component: () => import('@unit/CountSymmetricIntegers')
+}, {
+    path: '/min-operations',
+    component: () => import('@unit/MinimumOperationsToMakeArrayValuesEqualToK')
+}, {
+    path: '/triangle-type',
+    component: () => import('@unit/TriangleType')
 }]
+
 
 const router = new Router(routes, '#app')
 
